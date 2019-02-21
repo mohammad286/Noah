@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+.header {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+span {
+    font-size:25px;
+    font-weight: bold;
+    color: #ff00ff;
+    display:block;
+    margin:-10px 15px 5px -5px;
+    padding:5px;
+    float:left;
+
+}
+.cat {
+    width: 300px;
+    border:1px solid #bbff00;
+    margin:10px 0px 10px 3px;
+    float: left;
+    position: relative;
+    right:140px;
+    
+}
+.little {
+    width: 289px;
+    background-color: #0FF;
+    color:#000;
+
+}
+/*.quote-right {
+    float: right;
+    margin: 1rem -8rem 2rem 2rem;
+    border-left: 4px solid green;
+    padding-left: 2rem;
+}
+.quote {
+    width: 300px;
+    font-size: 200%;
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+}
+blockquote {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+*/
+/*blockquote {
+    color: #e33e00;
+    font-style: italic;
+    font-family: GeoSlb712XBdBT;
+    font-size:32px;
+    padding:20px;
+    padding-left: 15px;
+    border-left: 3px solid #F63;
+    margin-left:350px;
+    margin-right:3px;
+    float:right;
+    width:300px;
+}*/
+/*blockquote p:before {
+    content: '"';
+    font-size: 30px;
+    top:20px;
+    position:absolute;
+    
+    }*/
+ /*   
+    blockquote p:after {
+    content: '"';
+    font-size: 18px;
+    top:40px;
+    }
+    */
+
+    .quote-right {
+        
+        border-left: 5px solid #ccc;
+        margin: 0px 10px 0px -80px;
+        padding: 0.5em 10px ;
+        quotes: "\201C""\201D""\2018""\2019";
+        width: 200px;
+        float:right;
+        position: relative;
+        left:140px;
+        color: #e33e00;
+        font-style: italic;
+        font-family: GeoSlb712XBdBT;
+        font-size:32px;
+      }
+      blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 10em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+      }
+      blockquote p {
+        display: inline;
+      }
+    
+    .quote-left {
+        border-right: 5px solid #ccc;
+        margin: 0px -80px 0px 10px;
+        padding: 0.5em 10px ;
+        quotes: "\201C""\2019""\2018""\201D";
+        width: 200px;
+        float:left;
+        position: relative;
+        right:140px;
+        color: #e33e00;
+        font-style: italic;
+        font-family: GeoSlb712XBdBT;
+        font-size:32px;
+      }
+       
+
+
+
+      
+    
