@@ -6,25 +6,26 @@ body{
     margin: auto;
     padding: 20px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
+    /**border:10px solid green;**/
 }
 span {
     font-size:25px;
     font-weight: bold;
     color: #ff00ff;
     display:block;
-    margin:-10px 15px 5px -5px;
+    margin:-10px 15px 5px 0px;
     padding:5px;
     float:left;
-
 }
+
 .cat {
     width: 300px;
     border:1px solid #bbff00;
     margin:10px 0px 10px 3px;
     float: left;
     position: relative;
-    right:140px;
+    right:100px;
     
 }
 .little {
@@ -80,21 +81,37 @@ blockquote {
     top:40px;
     }
     */
-
     .quote-right {
         
         border-left: 5px solid #ccc;
-        margin: 0px 10px 0px -80px;
+        margin: 20px 10px 0px -80px;
         padding: 0.5em 10px ;
         quotes: "\201C""\201D""\2018""\2019";
-        width: 200px;
+        width: 250px;
         float:right;
         position: relative;
         left:140px;
         color: #e33e00;
         font-style: italic;
         font-family: GeoSlb712XBdBT;
+        font-size:30px;
+        text-align:left;
+      }
+      
+      .quote-left {
+        border-right: 5px solid #ccc;
+        margin: 20px -80px 0px 10px;
+        padding: 0.5em 10px ;
+        quotes: "\201C""\2019""\2018""\201D";
+        width: 250px;
+        float:left;
+        position: relative;
+        right:140px;
+        color: #e33e00;
+        font-style: italic;
+        font-family: GeoSlb712XBdBT;
         font-size:32px;
+        text-align:right;
       }
       blockquote:before {
         color: #ccc;
@@ -107,24 +124,5 @@ blockquote {
       blockquote p {
         display: inline;
       }
-    
-    .quote-left {
-        border-right: 5px solid #ccc;
-        margin: 0px -80px 0px 10px;
-        padding: 0.5em 10px ;
-        quotes: "\201C""\2019""\2018""\201D";
-        width: 200px;
-        float:left;
-        position: relative;
-        right:140px;
-        color: #e33e00;
-        font-style: italic;
-        font-family: GeoSlb712XBdBT;
-        font-size:32px;
-      }
-       
-
-
-
       
     
