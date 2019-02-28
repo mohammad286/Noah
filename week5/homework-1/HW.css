@@ -28,7 +28,6 @@ body {
 .main-class {
     display: flex;
     height: 81vh;
-
 }
 .two-paragraphs {
     order: 2;
