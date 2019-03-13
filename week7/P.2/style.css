@@ -26,7 +26,7 @@ item {
 }
 .item-5 {
     grid-column: 1/-1;
-    background: rgb(205, 86, 50);
+    background: rgb(205, 86, 55);
 }
 .item-6 {
     grid-column: 1/-1;
