@@ -60,7 +60,7 @@ body {
 }
 
 .advert {
-    background: rgb(248, 248, 0);
+    background: rgb(204, 153, 42);
     grid-column: 1/4;
     margin-bottom: -400px;
     margin-top: 50px;
@@ -68,7 +68,7 @@ body {
 }
 
 .footer {
-    background: rgb(253, 29, 253);
+    background: rgb(212, 195, 212);
     grid-area: footer;
     grid-column: 1/4;
     margin-top: 1px;
